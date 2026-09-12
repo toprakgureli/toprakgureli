@@ -28,7 +28,7 @@ toprak@github:~$ ls projects/
 ```
 ```css
 + 📂 gecit/
-+   └─ For teams using more than one LLM provider: one endpoint, per-team keys, and a spending cap that really stops.
++   └─ For teams using several LLM providers: one endpoint, per-team keys, and a spending cap that really stops.
 +   └─ Does: OpenAI-compatible API over OpenAI and Anthropic, virtual keys, atomic monthly budgets, rate limits,
 +      response cache and automatic failover to a backup provider.
 +   └─ Tech: Go, Prometheus metrics, YAML config
@@ -40,8 +40,8 @@ toprak@github:~$ ls projects/
 +   └─ Tech: Go, worker pool, entropy detection, JSON and SARIF output
 +
 + 📂 santral-c/
-+   └─ For a small contact center that wants call management on top of its cloud PBX, without a separate switchboard.
-+   └─ Does: browser softphone and call panel, live agent presence, call log with quality data, roles and TOTP login,
++   └─ For a small contact center that needs call management on top of its cloud PBX, without a new switchboard.
++   └─ Does: browser softphone and call panel, live agent presence, call log with quality data, roles, TOTP login,
 +      plus a Chrome extension that keeps the call controls on every tab.
 +   └─ Tech: Go (Fiber, GORM), PostgreSQL, Redis, React, TypeScript, SIP.js
 +
