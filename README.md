@@ -9,17 +9,18 @@ toprak@github:~$ whoami
 toprak@github:~$ cat about.yml
 ```
 ```yaml
-location: Istanbul, Türkiye
+location: Turkey
 now: Software & Technical Engineer @ VatanSoft
 what_i_do: build the company's internal platforms and run them in production
 coding_since: 2016 (professionally since 2022)
 
-languages:     [Go, C#, XAML, SQL, TypeScript, Node.js, Python, Bash]
-backend:       [.NET 8, ASP.NET Core, EF Core, WPF, SignalR, Fiber, GORM]
-data_infra:    [PostgreSQL, MySQL, Redis, Linux, AWS EC2, Docker, Nginx, systemd, Cloudflare]
-telephony:     [SIP/VoIP, WebRTC (SIP.js), Asterisk]
-observability: [Prometheus, Grafana, OpenTelemetry, Jaeger]
-security:      former penetration tester; every system gets tested as an attacker before it goes live
+languages:  [Golang, .NET, Node.js, Python]
+frameworks: [ASP.NET Core, EF Core, WPF, SignalR, Fiber, GORM, React]
+databases:  [PostgreSQL, MySQL, Redis]
+infra:      [Linux, AWS EC2, Docker, Nginx, systemd, Cloudflare]
+telephony:  [SIP/VoIP, WebRTC, Asterisk]
+monitoring: [Prometheus, Grafana, OpenTelemetry, Jaeger]
+security:   former penetration tester (OWASP Top 10, Burp Suite, Metasploit)
 ```
 
 ```bash
