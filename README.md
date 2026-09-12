@@ -28,22 +28,33 @@ toprak@github:~$ ls projects/
 ```
 ```css
 + 📂 gecit/
-+   └─ LLM gateway in Go: one OpenAI-compatible endpoint over OpenAI and Anthropic
-+   └─ virtual API keys, atomic monthly budget caps, per-key rate limiting, response cache, failover
++   └─ For teams using more than one LLM provider: one endpoint, per-team keys, and a spending cap that really stops.
++   └─ Does: OpenAI-compatible API over OpenAI and Anthropic, virtual keys, atomic monthly budgets, rate limits,
++      response cache and automatic failover to a backup provider.
++   └─ Tech: Go, Prometheus metrics, YAML config
 +
 + 📂 sizinti/
-+   └─ Concurrent secret scanner in Go: catches leaked credentials before they reach a commit
-+   └─ Turkish provider rules (iyzico, PayTR, Netgsm), entropy detection, SARIF output
++   └─ For catching leaked API keys and passwords on the developer's machine, before they reach a commit.
++   └─ Does: scans the working tree and reports findings with path, line and confidence; rules for AWS, GitHub,
++      Stripe, JWT and Turkish providers (iyzico, PayTR, Netgsm).
++   └─ Tech: Go, worker pool, entropy detection, JSON and SARIF output
 +
 + 📂 santral-c/
-+   └─ Call manager for a small contact center: Go control plane, browser softphone (SIP.js), TOTP, RBAC
-+   └─ Go, Fiber, GORM, PostgreSQL, Redis, React, TypeScript
++   └─ For a small contact center that wants call management on top of its cloud PBX, without a separate switchboard.
++   └─ Does: browser softphone and call panel, live agent presence, call log with quality data, roles and TOTP login,
++      plus a Chrome extension that keeps the call controls on every tab.
++   └─ Tech: Go (Fiber, GORM), PostgreSQL, Redis, React, TypeScript, SIP.js
 +
 + 📂 vayzik/  (private)
-+   └─ HR and finance platform moved from Node.js to Go: payroll, leave, invoicing, 100+ integration tests
++   └─ For the company's HR and finance: payroll, commissions, leave, work hours, invoicing, income and expenses.
++   └─ Does: the Node.js version rewritten in Go, with 100+ integration tests on real PostgreSQL and CI gates.
++   └─ Tech: Go, Fiber, GORM, PostgreSQL, React
 +
 + 📂 devtrack/  (private)
-+   └─ Request and task tracking used daily by software and support teams: SSE, Telegram bot, Cloudflare R2
++   └─ For support, software and management teams to open requests to each other and track them to completion.
++   └─ Does: auto-assignment by project and position, Excel bulk import, live SSE notifications, Telegram bot,
++      media stored on Cloudflare R2.
++   └─ Tech: Go, Fiber, PostgreSQL, Redis, React, TypeScript
 ```
 
 ```bash
