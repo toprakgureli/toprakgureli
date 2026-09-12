@@ -80,14 +80,6 @@ toprak@github:~$ cat work.log
 ```
 
 ```bash
-toprak@github:~$ top
-```
-<div align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=toprakgureli&show_icons=true&theme=dark&include_all_commits=true&count_private=true&bg_color=0d1117&hide_border=true" alt="GitHub stats"/>
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=toprakgureli&layout=compact&theme=dark&bg_color=0d1117&hide_border=true" alt="Top languages"/>
-</div>
-
-```bash
 toprak@github:~$ nc -l 8080
 ```
 <p align="center">
